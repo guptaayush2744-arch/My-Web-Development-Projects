@@ -1,0 +1,140 @@
+.div1{
+    border:2px solid black;
+    height: 50px;
+    width: 100%;
+    background-color:aquamarine ;
+    display: flex;
+    flex:auto;
+}
+a{
+    text-decoration: none;
+    color:chocolate ;
+    text-align:end;
+    justify-content: space-between;
+    
+}
+.a1 {
+    display: inline-block;
+    padding: 10px;
+    justify-content: end;
+flex-direction: column-reverse;
+}
+.ab{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.div2{
+    
+    border:2px solid black;
+    width: 100%;
+    background-color:cadetblue;
+   
+    display: inline-block;
+}
+#about{
+    font-size:20px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.img{
+    border-radius: 50%;
+    margin:auto ;
+
+
+}
+.p1{
+    display: inline-block;
+    padding-left: 20px;
+
+}
+.ul{
+    display: flex ;
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 20px;
+}
+.ol{display: flex ;
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 20px;
+}
+.img2{
+    border:2px solid black;
+    width: 300px;
+    height: 250px;
+}
+.bbn{
+   
+    padding-right : 10px;
+    padding-left : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    margin-right : 10px;
+    margin-left : 10px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+.ab8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 16px;
+}
+.ab9{
+    color:green ;
+}
+.diva{
+    border:2px solid black ;
+    border-radius: 5px;
+height:300px ;
+width:300px ;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divb{
+    border:1px solid bisque ;
+    padding :10px ;
+    margin:5px;
+}
+.div4{
+     border:2px solid black ;
+    border-radius: 5px;
+height:300px ;
+width:300px ;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div5{
+    border:1px solid ;
+    border-color: brown;
+    padding :10px ;
+    margin:5px;
+}
+.maind{
+    display:inline-block ;
+    display:flex ;
+    justify-content: space-evenly;
+}
+.divC{
+    border:  2px solid ;
+    border-color:black ;
+    border-radius: 5px ;
+width:100%;
+height: 50px ;
+display: flex;
+}
+.con{
+
+    border: 1px black ;
+    padding: 10px ; ;
+    margin:auto;
+    height:40px;
+    width:100px  ;
+}
+#abb{
+    color:midnightblue ;
+}

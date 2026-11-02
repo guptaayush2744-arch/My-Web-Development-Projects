@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css" >
+    
+</head>
+<body>
+  <form method="get">
+  <h1> <span id="membership" > Membership </span> Form</h1>  
+   
+<h4>To apply for membership please complete all questions.</h4>
+<label for="Managing Director" >Managing Director </label>
+<input id="MAnaging Director" type="text" placeholder="Enter your Name:" required/>
+<br/> <br />
+<label for="Date" >Date</label>
+<input id="Date" type="date" placeholder="Enter Date" required/>
+<br /> <br /> 
+<label for="Name" >Applicants </label>
+<input id="Name"  type="text" placeholder=" Accountants Name " required/>
+<br/> <br/>
+<h4>Personal Information</h4>
+
+<label for="Name" >Full Name</label>
+<input id="Name" type="text"  placeholder="Enter Full Name" required/>
+<br /><br/>
+<label for="DOB" >DOB</label>
+<input  id="DOB" type="Date" placeholder="DOB" required/>
+<br /> <br />
+<div>
+  <label for="gender">GENDER REQUIRED</label>
+<select name="gender" id="gender" type=""> 
+    
+    <option value="Select" disabled selected></option> </radio>
+<option value="male" > MALE </option>
+<option value="female"> FEMALE </option>
+<option value="other">OTHER</option> 
+</select>
+</div>
+
+<br> 
+<br/>
+<label for="Address" >Address :</label>
+<input id="Address" type="text" placeholder="Enter Address" />
+<br /> <br />
+<label for="City" ></label>
+<input id="City" placeholder="Enter City" type="text" />
+<label for="postal" >Postal Code</label>
+<input id="postal" placeholder="Enter Code" />
+<br /> <br/>
+<label for="phone" ></label>
+<input id="phone" type="tel"   placeholder="Phone:" required>
+<br /> <br/>
+<label for="email" ></label>
+<input type="email" id="email" placeholder="Enter Email" />
+<label for="password" ></label>
+<input id="password" type="password" placeholder="Password" required />
+<br/> <br/>
+
+<h3>Membership Details</h3>
+<div>
+<label for="mme" >Membership Type :</label>
+<label for="reg" >Regular</label>
+<input type="radio" id="reg" name="Member" value="reg" />
+<label for="premium">Premium</label>
+<input id="premium" type="radio" name="Member"  />
+<label for="vip">VIP</label>
+<input id="vip" type="radio" name="Member" value="vip" />
+<br /> <br/>
+<label for="start">Start Date :</label>
+<input type="date" id="start" placeholder="Start Date" />
+</div>
+<h4>Emergency Contact</h4>
+<label for="nn" ></label>
+<input id="nn" type="text" placeholder="Name :" />
+<br /><br/>
+<label for=""></label>
+<input id="" type="text" placeholder="Relationship" />
+<label for="" ></label>
+<input id="" type="tel" placeholder="phone" />
+<label for="" >Aadhaar : </label>
+<input id="" type="file" placeholder="Adhaar" />
+<br /> <br/>
+<label for="userBio">WHY WOULD YOU LIKE TO JOIN </label>
+<br>
+<textarea 
+id="userBio"
+name="userBio"
+cols="50"
+rows="5"
+maxlength="15"
+placeholder=""" ></textarea>
+<br> 
+<h3>Agreement</h3>
+<p><pre> 
+I hereby confirm that the information provided is
+accurate and complete. I agree to follow 
+the rules and regulations of the membership 
+program. </pre>
+</p>
+
+
+<button>SUBMIT</button> <button>RESET</button>
+
+</form>
+</body>
+</html>
