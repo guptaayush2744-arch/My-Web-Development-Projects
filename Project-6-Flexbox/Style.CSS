@@ -1,0 +1,107 @@
+.div1{
+    display:flex ;
+    border: 2px solid black ; 
+    border-radius: 5px;
+    height: 100px ;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding : 15px , 25px ;
+    background-color: cyan;
+}
+.div2{
+    justify-content: flex-start;
+padding : 30px ;
+gap: 25px;
+
+}
+.div3{
+    justify-content: end; 
+    display: flex;
+    padding:30px ;
+    gap:5px ;
+    
+}
+a {
+    color: darkred;
+}
+.div4 {
+    border: 1px solid black ;
+    border-radius:1px ;
+    padding: 25px  ;
+    /* padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 200px; */
+    text-align: center;
+    height: 250px ;
+    width : 200px  ;
+    margin-left:  500px ;
+}
+
+
+
+
+.div5 {
+   
+    color: brown;
+}
+.butt{
+    background-color: darkslategray;
+    color :mediumaquamarine ;
+}
+.div7{
+    border-radius: 5px ;
+    
+    display :flexbox  ;
+    margin-left:100px ;
+    margin-top:50px;
+
+   justify-content: space-between;
+    height: 1100px ;
+    width : 1000px ;
+}
+.div8{
+flex-direction: row ;
+display: flex;
+justify-content: space-between;
+margin-top:50px ;
+}
+.div9{
+flex-direction: row ;
+display: flex;
+justify-content:space-between ;
+margin-top:50px ;
+}
+.div10{
+    flex-direction: row ;
+display: flex;
+justify-content:space-between ;
+margin-top:50px ;
+}
+.diva{
+    border:1px solid black ;
+    margin:2px ;
+padding : 5px ;
+background-color:brown ;
+color:floralwhite;
+}
+.divb{
+   margin-top:50px ;
+    border: 1px solid back ;
+
+}
+.divba{
+    display:flex ;
+    border: 2px solid black ; 
+    border-radius: 5px;
+    height: 100px ;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding : 15px , 25px ;
+    background-color:darkseagreen ;
+}
+    
+
